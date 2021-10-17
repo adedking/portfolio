@@ -1,0 +1,30 @@
+.login-one-page {
+    min-width: 100vw;
+    max-width: 100vw;
+    min-height: 100vh;
+    max-height: 100vh;
+    display: flex;
+}
+.left, .right {
+    min-height: 100vh;
+    max-height: 100vh;
+}
+.left {
+    flex: 3;
+    background: rgb(102,146,221);
+    background: linear-gradient(135deg, rgba(102,146,221,1) 0%, rgba(21,84,195,1) 100%);
+}
+
+.left > img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 2;
+    background: #538ff6;
+}
